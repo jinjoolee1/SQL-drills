@@ -8,6 +8,17 @@ CREATE TABLE person
 
 INSERT INTO person 
 (name, age, height, city, favorite_color) VALUES ('Emma Coughlin', 32, 154, 'Minneapolis', 'Purple');
+INSERT INTO person
+(name, age, height, city, favorite_color) VALUES ('Patrick Hawkinson', 30, 175, 'Minneapolis', 'Red');
+INSERT INTO person
+(name, age, height, city, favorite_color) VALUES ('Charlie Sam', 33, 172, 'Hinckley', 'Blue');
+
+INSERT INTO person 
+(name, age, height, city, favorite_color) VALUES ('Mike Brock', 32, 186, 'Los Angeles', 'Green');
+
+INSERT INTO person 
+(name, age, height, city, favorite_color) VALUES ('Katherine Lorentz', 32, 156, 'Seattle', 'Black');
+
 
 SELECT * FROM person ORDER BY height DESC;
 
